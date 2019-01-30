@@ -1,0 +1,118 @@
+body {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-color: rbg(209, 209, 209) ;
+  color: black;
+  text-align: center;
+  line-height: 1,6;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  line-height: 1,6;
+}
+
+
+h1 {
+  font-weight: 500; /* if you want the light version */
+  background-color: rbg(209, 209, 209);
+  color: #474954;
+  font-size: 40px;
+}
+
+h2 {
+  color: #7284A8;
+  font-size: 25px;
+}
+
+h3 {
+  color: #A9B3CE;
+  font-size: 20px;
+}
+
+p {
+
+}
+
+#logo {
+  border-radius: 50%;
+  pading: 20px;
+  margin-top: 20px;
+ }
+
+a {
+  color: #A9B3CE;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9E788F;
+  text-decoration: underline;
+}
+
+ul, li {
+  list-style: none;
+  margin: auto;
+  display: inline-block;
+  padding: 20px;
+}
+
+table {
+  text-align: left;
+}
+
+td {
+  padding: 20px;
+}
+
+.image {
+  border-radius: 5px;
+}
+
+.container {
+  background: white;
+  width:500px;
+  padding:20px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.container a {
+  font-size: 20px;
+}
+
+.text-center {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.card {
+  margin: 10px 0px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow:0px 1px 2px 0px;
+}
+
+#footer ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
